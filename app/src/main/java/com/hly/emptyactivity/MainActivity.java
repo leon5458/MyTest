@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         /**
          * 分支内容新增文字
          */
-
         imageView = findViewById(R.id.img);
         imageView1 = findViewById(R.id.img1);
         imageView2 = findViewById(R.id.img2);
