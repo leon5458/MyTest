@@ -32,28 +32,11 @@ public class MainActivity extends AppCompatActivity {
         imageView1 = findViewById(R.id.img1);
         imageView2 = findViewById(R.id.img2);
 
-        FilmGlideUtils.load(this,imageView,"https://raw.githubusercontent.com/leon5458/my_use_image/master/my_use_image/1.jpg",R.mipmap.img5);
+        FilmGlideUtils.load(this, imageView, "https://raw.githubusercontent.com/leon5458/my_use_image/master/my_use_image/1.jpg", R.mipmap.img5);
 
 
         RequestOptions roundOptions = new RequestOptions()
                 .transform(new RoundedCorners(30));
-//        //加载第一个图片
-//        Glide.with(this)
-//                .load(R.mipmap.img5)
-//                .apply(roundOptions)
-//                .into(imageView);
-//
-//        //加载第二个图片
-//        Glide.with(this)
-//                .load(R.mipmap.img5)
-//                .apply(roundOptions)
-//                .into(imageView1);
-//        roundOptions.transform(new CenterCrop(), new RoundedCorners(30));//处理CenterCrop的情况
-//        //加载第三个图片
-//        Glide.with(this)
-//                .load(R.mipmap.img5)
-//                .apply(roundOptions)
-//                .into(imageView2);
 
 
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
