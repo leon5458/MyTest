@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         cons = findViewById(R.id.cons);
-
+        /**
+         * 分支内容新增文字
+         */
 
         imageView = findViewById(R.id.img);
         imageView1 = findViewById(R.id.img1);
